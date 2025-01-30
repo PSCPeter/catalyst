@@ -90,6 +90,7 @@ export function ProductDetail<F extends Field>({
                       <PriceLabel className="my-3 text-xl @xl:text-2xl" price={price ?? ''} />
                     )}
                   </Stream>
+                  <p id="testp">testing</p>
 
                   <div className="mb-8 @2xl:hidden">
                     <Stream fallback={<ProductGallerySkeleton />} value={product.images}>
